@@ -76,6 +76,18 @@
   color: #fff;
 }
 
+.accordion__input:checked:active + .accordion__label .accordion__img {
+  opacity: 0.5;
+}
+
+.accordion__input:checked:active + .accordion__label .accordion__title .accordion__icon {
+  color: black;
+}
+
+.accordion__input:checked:active + .accordion__label .accordion__title .accordion__span {
+  color: black;
+}
+
 @media (hover: hover) {
   .accordion__input:hover + .accordion__label .accordion__img {
     max-height: 20em;
@@ -110,6 +122,7 @@
   }
 
   .accordion__icon {
+    visibility: visible;
     width: 3.5vw;
     height: 3.5vh;
   }
