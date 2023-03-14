@@ -113,6 +113,18 @@
   .accordion:hover .accordion__label .accordion__span {
     color: #fff;
   }
+
+  .accordion__input:active + .accordion__label .accordion__title .accordion__icon {
+    color: black;
+  }
+  
+  .accordion__input:active + .accordion__label .accordion__title .accordion__span {
+    color: black;
+  }
+  
+  .accordion__input:active + .accordion__label .accordion__img {
+    opacity: 0.5;
+  }
 }
 
 @media (max-width: 820px) {
